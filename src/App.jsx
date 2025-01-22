@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Hero from './components/Hero/Hero'
-import Project from './components/Projects/Projects';
+import SocialContainer from './components/Social/Social'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,9 +10,10 @@ function App() {
   return (
     <>
       <Hero />
-      <Project title={"Project1"} description={"This a test that im trying to do to see if it works"} />
+      <SocialContainer /> 
     </>
   )
 }
 
 export default App
+5
