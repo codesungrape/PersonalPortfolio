@@ -1,19 +1,13 @@
-import { useState } from 'react'
+
 import './App.css'
-import Hero from './components/Hero/Hero'
-import SocialContainer from './components/Social/Social'
+import OuterContainer from './components/OuterContainer/OuterContainer'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Hero />
-      <SocialContainer /> 
-    </>
+      <OuterContainer/>
   )
 }
 
 export default App
-5
