@@ -1,0 +1,10 @@
+/* Hero.css */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; /* Align content to the right */
+    background-color: #f5f5f5;
+    padding: 1rem 4rem;
+}
